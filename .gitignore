@@ -1,0 +1,23 @@
+# Godot 4+ specific ignores
+.godot/
+
+# Godot-specific ignores
+.import/
+
+# Imported translations (automatically generated from CSV files)
+*.translation
+
+# Mono-specific ignores
+.mono/
+data_*/
+mono_crash.*.json
+
+# Our specific ignores
+*.exe
+*.pck
+*.zip
+.build/
+addons/Wwise/native/lib/win64/editor/profile/~libwwise.windows.editor.profile.dll
+addons/godotsteam/win64/~libgodotsteam.windows.template_debug.x86_64.dll
+*.tmp
+Wwise/resources/WwiseProjectData.tres
